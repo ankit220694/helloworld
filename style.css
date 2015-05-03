@@ -1,0 +1,64 @@
+@font-face {
+    font-family: digital;
+    src: url("fonts/digital-7.ttf");
+}
+
+.clock {
+	font-family: digital;
+	border: 15px solid #ADADAD;
+	background-color: #121D3A;
+	padding: 15px;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+}
+body {
+    margin: 0px;
+    font-size: 14px;
+    background-color: #FAFAFA;
+}
+
+.content {
+    background-color: #0C121F;
+    padding: 15px 25px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.time, .icon, .am-pm {
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.icon, .am-pm {
+    width: 20%;
+    margin-top: 1.5em;
+    color: #FFF;
+}
+
+.time {
+    width: 60%;
+    font-size: 3em;
+   
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.time-wrapper {
+    padding: 15px 0px 30px 0px;
+}
+
+.day span {
+    margin: 0px 5px;
+}
+
+.active {
+    color: rgba(255, 255, 255, 1);
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    
+    position: relative;
+    top: -5px;
+}
